@@ -48,25 +48,25 @@ index: page-block
 **********************************/
 .info-select {
   font-size: 1.3rem;
-  padding: 2% 30% 1% 10%;
+  padding: 2% 30% 1% 30%;
 }
 
-.what-it-is,
-.how-it-works {
+span.what-it-is {
   display: inline-block;
   margin-right: 4%;
 }
 
 span.selected {
-  border-bottom: 1px solid #333;
+  border-bottom: 2px solid #000;
+  color: #000;
 }
 
 div.selected {
-  margin: 5% 40% 1% 5%;
+  padding: 5% 20% 1% 20%;
 }
 
 .page-block {
-  margin: 0.5% 1%;
+  margin: 0.5% 10% 0.5% 10%;
   padding: 1%;
   border-radius: 5px;
   background-color: #fff;
