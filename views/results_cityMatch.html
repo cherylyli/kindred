@@ -1,0 +1,284 @@
+<!--
+Template of what people would see after searching
+for other people who have similar tastes in traveling
+Lists out people who have done similar in the travel style quiz.
+Displays profile picture, name, city of origin, match %,
+last visited places and latest travel entries.
+ ------------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Matches</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/normalize.css" media="screen" title="no title" charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic|Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../css/main.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="../css/results_cityMatch.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+  <!--nav bar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Kindred</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav"></ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--headline in text-->
+  <div class="headerPicture">
+    <h1 class="cityHeadLine"><i id="nameOfCity">Montreal</i></h1>
+    <span class="numMatches">342 matches</span>
+  </div>
+  <div class="headLine">
+    <p class="peopleOptions">
+      <a href="ALL" class="peopleOptions all selected" alt="Click here to see reccommendations from everyone who's a match for your travel style">All</a>
+      <a href="LOCALS" class="peopleOptions locals" alt="Click here to see only reccomendations from locals">Local</a>
+      <a href="VISITORS" class="peopleOptions visitors" alt="Click here to see only reccommendations from visitors to the city">Visitors</a>
+    </p>
+  </div>
+
+
+
+  <!--recommendations: profiles of people-->
+<div class="wrapper">
+  <div class="resultBlock">
+      <div class="profilePic">
+        <img class="profilePic" src="../img/MichelleYuProfile.png" alt="Profile Picture: Michelle Yu">
+      </div>
+      <div class="profileInfo">
+          <h3 class="personName">Michelle</h3>
+          <p class="cityOrigin">Olso, Norway</p>
+          <p class="travelTags">Tags: Adventurer, off the Beaten Path, ...</p>
+          <p class="matchPercent">97% match</p>
+          <p class="lastVisited">Visited Montreal: 5 months ago</p>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Kitsune_Cafe.png" alt="Kitsune Cafe in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Kitsune Cafe</a></h3>
+          <p class="placeTags">Tags: Cafe, Hipster</p>
+          <p class="averageRating">Average Rating: 4.3/5<p>
+        </div>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Code_Black.png" alt="Code Black Cafe in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Code Black</a></h3>
+          <p class="placeTags">Tags: Cafe, Hipster</p>
+          <p class="averageRating">Average Rating: 4.4/5<p>
+        </div>
+      </div>
+  </div>
+
+  <div class="resultBlock">
+      <div class="profilePic">
+        <img class="profilePic" src="../img/PeterMaccarioProfile.png" alt="Profile Picture: Michelle Yu">
+      </div>
+      <div class="profileInfo">
+          <h3 class="personName">Peter</h3>
+          <p class="cityOrigin">London, England</p>
+          <p class="travelTags">Tags: Hispter, Literature Snob, ...</p>
+          <p class="matchPercent">94% match</p>
+          <p class="lastVisited">Visited Montreal: 2 months ago</p>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Musee.png" alt="Musee Des Beaux Arts in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Musee Des Beaux Arts</a></h3>
+          <p class="placeTags">Tags: History, Arts</p>
+          <p class="averageRating">Average Rating: 4.5/5<p>
+        </div>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Suwu.png" alt="Suwu Bar in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Suwu Bar</a></h3>
+          <p class="placeTags">Tags: Bar, Irish</p>
+          <p class="averageRating">Average Rating: 4.7/5<p>
+        </div>
+      </div>
+  </div>
+
+  <div class="resultBlock">
+      <div class="profilePic">
+        <img class="profilePic" src="../img/IreneZouProfile.png" alt="Profile Picture: Irene Zou">
+      </div>
+      <div class="profileInfo">
+          <h3 class="personName">Irene</h3>
+          <p class="cityOrigin">ShangHai, China</p>
+          <p class="travelTags">Tags: Romantic, Artsy, ...</p>
+          <p class="matchPercent">96% match</p>
+          <p class="lastVisited">Visited Montreal: 11 months ago</p>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Basilica.png" alt="Basilica in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Basilica</a></h3>
+          <p class="placeTags">Tags: Church, Arts</p>
+          <p class="averageRating">Average Rating: 4.3/5<p>
+        </div>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/MileEnd.png" alt="The Mile-End Distrcit in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Mile End</a></h3>
+          <p class="placeTags">Tags: Neighborhood, Hipster</p>
+          <p class="averageRating">Average Rating: 4.4/5<p>
+        </div>
+      </div>
+  </div>
+
+  <div class="resultBlock">
+      <div class="profilePic">
+        <img class="profilePic" src="../img/CherylLiProfile.png" alt="Profile Picture: Cheryl Li">
+      </div>
+      <div class="profileInfo">
+          <h3 class="personName">Cheryl</h3>
+          <p class="cityOrigin">Montreal, Canada</p>
+          <p class="travelTags">Tags: Adventurer, Sporty, ...</p>
+          <p class="matchPercent">89% match</p>
+          <p class="lastVisited">Visited Montreal: 1 month ago</p>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Mme_Lees.png" alt="Mme. Lee's Pub in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Mme. Lees</a></h3>
+          <p class="placeTags">Tags: Bar, Nightlife</p>
+          <p class="averageRating">Average Rating: 4.7/5<p>
+        </div>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Code_Black.png" alt="Code Black Cafe in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Code Black</a></h3>
+          <p class="placeTags">Tags: Cafe, Hipster</p>
+          <p class="averageRating">Average Rating: 4.4/5<p>
+        </div>
+      </div>
+  </div>
+
+  <div class="resultBlock">
+      <div class="profilePic">
+        <img class="profilePic" src="../img/MichelleYuProfile.png" alt="Profile Picture: Michelle Yu">
+      </div>
+      <div class="profileInfo">
+          <h3 class="personName">Michelle</h3>
+          <p class="cityOrigin">Olso, Norway</p>
+          <p class="travelTags">Tags: Adventurer, off the Beaten Path, ...</p>
+          <p class="matchPercent">97% match</p>
+          <p class="lastVisited">Visited Montreal: 5 months ago</p>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Kitsune_Cafe.png" alt="Kitsune Cafe in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Kitsune Cafe</a></h3>
+          <p class="placeTags">Tags: Cafe, Hispter</p>
+          <p class="averageRating">Average Rating: 4.3/5<p>
+        </div>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Code_Black.png" alt="Code Black Cafe in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Code Black</a></h3>
+          <p class="placeTags">tags: cafe, irish</p>
+          <p class="averageRating">average rating: 4.4/5<p>
+        </div>
+      </div>
+  </div>
+
+  <div class="resultBlock">
+      <div class="profilePic">
+        <img class="profilePic" src="../img/MichelleYuProfile.png" alt="Profile Picture: Michelle Yu">
+      </div>
+      <div class="profileInfo">
+          <h3 class="personName">Michelle</h3>
+          <p class="cityOrigin">Olso, Norway</p>
+          <p class="travelTags">Tags: Adventurer, off the Beaten Path, ...</p>
+          <p class="matchPercent">97% match</p>
+          <p class="lastVisited">Visited Montreal: 5 months ago</p>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Kitsune_Cafe.png" alt="Kitsune Cafe in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Kitsune Cafe</a></h3>
+          <p class="placeTags">Tags: Cafe, Hispter</p>
+          <p class="averageRating">Average Rating: 4.3/5<p>
+        </div>
+      </div>
+      <div class="containerPlaces">
+        <div class="placeImage">
+          <a href="#"><img src="../imgPlaces/Code_Black.png" alt="Code Black Cafe in Montreal"></a>
+        </div>
+        <div class="placeDescription">
+          <h3><a href="#">Code Black</a></h3>
+          <p class="placeTags">tags: cafe, irish</p>
+          <p class="averageRating">average rating: 4.4/5<p>
+        </div>
+      </div>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+  <!--footer-->
+<footer>
+  <p>
+    <a href="ContactPage">Contact Us</a>
+    <a href="facebook">Facebook</a>
+    <a href="linkedIn">LinkedIn</a>
+    <a href="twitter">Twitter</a>
+    <a href="tel:514-555-5555">514-555-5555</a>
+    <a href="mailto:cheryl@gmail.com">cheryl@gmail.com</a>
+  </p>
+</footer>
+
+</body>
+</html>

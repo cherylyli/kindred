@@ -1,0 +1,101 @@
+/**********************************
+index: 1st landing
+**********************************/
+.welcome-1 {
+  color: black;
+  padding: 10% 0 0 17%;
+  background-image: linear-gradient(0deg, #fff 0%, transparent 4%),
+                    url('../img/welcomePage.jpeg');
+  background-repeat: no-repeat;
+  background-position: center-top;
+  background-size: cover;
+  font-family: AlexBrush, Pacifico;
+  font-size: 3rem;
+  font-weight: bolder;
+  min-height: 100vh;
+}
+
+h1{
+  margin-bottom: 0;
+  line-height: 3rem;
+  text-shadow: 2px 2px 4px #888;
+}
+
+h2 {
+  padding: 0;
+  margin: 2% 0 0 25%;
+  color: #333;
+  text-shadow: 1px 1px 2px #888;
+}
+
+.subtitle {
+  display: block;
+  font-weight: normal;
+}
+
+#downArrow {
+  width: 5%;
+  margin-top: 25%;
+  margin-bottom: 5%;
+  margin-left: 35%;
+  margin-right: 40%;
+}
+
+
+
+/**********************************
+index: page-block
+**********************************/
+.info-select {
+  font-size: 1.3rem;
+  padding: 2% 30% 1% 10%;
+}
+
+.what-it-is,
+.how-it-works {
+  display: inline-block;
+  margin-right: 4%;
+}
+
+span.selected {
+  border-bottom: 1px solid #333;
+}
+
+div.selected {
+  margin: 5% 40% 1% 5%;
+}
+
+.page-block {
+  margin: 0.5% 1%;
+  padding: 1%;
+  border-radius: 5px;
+  background-color: #fff;
+  min-height: 95vh;
+};
+
+
+
+
+/**********************************
+index: what-it-is
+**********************************/
+
+
+
+
+/**********************************
+index: travel-search
+**********************************/
+
+
+
+
+
+
+
+
+
+
+/**********************************
+index: destination-search
+**********************************/
