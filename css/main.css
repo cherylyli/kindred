@@ -4,6 +4,7 @@ full page layout
 * {
   box-sizing: border-box;
   font-family: 'Raleway';
+  text-align: center;
 }
 
 a,
@@ -29,26 +30,29 @@ a:hover{
 navigation bar settings
 ************************/
 .navbar {
-  background-color: #999;
+  background-color: rgba(240, 240, 245, 0.9);
   border-bottom: rgb(70, 70, 70);
   box-shadow: 2px 2px 2px rgba(200, 200, 200, 0.72)
 }
 
 .navbar-default .navbar-brand {
   font-family: AlexBrush, Pacifico;
-  color: #eee;
+  color: #666;
   font-size: 2rem;
   text-shadow: .5px .5px .5px #333;
 }
 
 .navbar-default .navbar-nav>li>a{
-  color: #eee;
+  color: #333;
   font-size: 0.8rem;
 }
 
 .navbar-collapse .nav .navbar-right {
-  color: #eee;
+  color: #333;
 }
+
+
+
 
 
 
@@ -135,6 +139,7 @@ footer a{
 footer a:hover {
   color: #222;
 }
+
 
 
 

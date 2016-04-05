@@ -31,8 +31,8 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./login.html">Sign Up</a></li>
           </ul>
         </div>
       </div>
@@ -45,39 +45,38 @@
   </div>
 
   <div class="page-block">
-    <div class="info-select">
+    <div class="block-header">
       <span class="what-it-is selected">What is Kindred?</span>
       <span class="how-it-works">How to use Kindred</span>
     </div>
-    <div class="what-it-is description">Kindred is an online platform that provides unique and interactive travel-related content curated by a community of like-minded world explorers and personalized through tags determined by each user's travelling style.</div>
+    <div class="what-it-is description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kindred is an online platform that provides unique and interactive travel-related content curated by a community of like-minded world explorers and personalized through tags determined by each user's travelling style.</div>
     <div class="how-it-works description not-selected">
-      <p>1. Find your Travel-Style tags</p>
-      <p>2. "Match Me!" to find others who share your taste in traveling OR "Find a place" to discover tourist attractions as recommended by others like you.</p>
-      <p>3. Click on profile to read about others' travel stories.</p>
+      1. Define your preferences or take our quiz<br>
+      2. Get matched and narrow your search with our filters<br>
+      3. Follow and read about others' travel stories<br>
     </div>
+  </div>
+
+  <div class="page-block">
+    <div class="block-header">Our Mission</div>
+    <div class="description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our mission is to simplify your search for travel destinations, to minimize your screen time and maximize your experience in the real world.</div>
   </div>
   
 
-  <div class="travel-search page-block">
-    <form>
+
+  <!-- Got a destination in mind? Start here:  -->
+  <div class="destination-search page-block">
+    <form method="GET">
       <label for="travel-tags">How do you travel?</label><br>
       <textarea id="travel-tags" name="travel-tags" placeholder="eg. romantic, foodie, adventurer, ..."></textarea>
-      <button type="submit">Next</button>
+      <label for="destination-query">Destination: </lable>
+      <input type="text" id="destination-query" name="destination-query" placeholder="eg. Paris, London, Grand Cayon, ...">
+      <button type="submit">Match me!</button>
     </form>
   </div>
 
-  <div class="destination-search page-block">
-    <div class="selected-tags">
-      <ul class="selected -tags">
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <label for="destination-query">Destination: </lable>
-    <input type="text" id="destination-query" name="destination-query" placeholder="eg. Paris, London, Grand Cayon, ...">
-    <button type="submit">Match me!</button>
-    <h3>OR</h3>
-    <button type="submit">Show me the world!</button>
+  <div class="jump-to-quiz page-block">
+
 
   </div>
 

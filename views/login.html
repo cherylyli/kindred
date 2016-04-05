@@ -1,0 +1,70 @@
+<!-- login/signup pagec -->
+
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/login.css" media="screen" title="no title" charset="utf-8">
+    <script src="../lib/jquery-1.12.2.min.js"></script>
+	<title>Login</title>
+
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Kindred</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-nav-demo">
+          <ul class="nav navbar-nav"></ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./login.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+		<h1>Login</h1>
+		<form method="GET">
+			Username: <input type="text" name="name" placeholder="name">
+			Password: <input type="password" name="password" placeholder="password">
+			<button type="submit">Go!</button>
+		</form>
+
+		<h1>Sign Up</h1>
+		<form method="POST" class="signup">
+			Create a new username: <input type="text" name="name" placeholder="John"><br>
+			Choose a password: <input type="password" name="password" placeholder="password"><br>
+			Enter your email: <input type="email" name="email" placeholder="john@abc.com">
+		</form>
+
+	</div>
+
+	    <!--footer-->
+  <footer>
+    <p>
+      <a href="ContactPage">Contact Us</a>
+      <a href="facebook">Facebook</a>
+      <a href="linkedIn">LinkedIn</a>
+      <a href="twitter">Twitter</a>
+      <a href="tel:514-555-5555">514-555-5555</a>
+      <a href="mailto:cheryl@gmail.com">cheryl@gmail.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>
