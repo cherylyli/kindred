@@ -1,0 +1,23 @@
+{
+  "name": "kindred",
+  "version": "1.0.0",
+  "description": "Website for Kindred, a personalized travel-search website",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherylyli/kindred.git"
+  },
+  "author": "Cheryl Yuchen Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherylyli/kindred/issues"
+  },
+  "homepage": "https://github.com/cherylyli/kindred#readme"
+}
