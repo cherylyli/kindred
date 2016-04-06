@@ -1,0 +1,101 @@
+<!--Landing page when user logs onto our site. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/main.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/index.css" media="screen" title="no title" charset="utf-8">
+    <script src="../lib/jquery-1.12.2.min.js"></script>
+    <title>Welcome</title>
+  </head>
+
+  <body>
+    <!--nav bar, maybe -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Kindred</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-nav-demo">
+          <ul class="nav navbar-nav"></ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./login.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div class="welcome-1">
+    <h1>Kindred</h1>
+    <h2 class="subtitle">your travel, your style</h2>
+  </div>
+
+  <div class="wrapper">
+    <div class="page-block">
+        <div class="block-header">
+          <span class="what-it-is selected">What is Kindred?</span>
+          <span class="how-it-works">How to use Kindred</span>
+        </div>
+        <div class="what-it-is description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kindred is an online platform that provides unique and interactive travel-related content curated by a community of like-minded world explorers and personalized through tags determined by each user's travelling style.</div>
+        <div class="how-it-works description not-selected">
+          1. Define your preferences or take our quiz<br>
+          2. Get matched and narrow your search with our filters<br>
+          3. Follow and read about others' travel stories<br>
+        </div>
+    </div>
+
+    <div class="page-block">
+      <div class="block-header">Our Mission</div>
+      <div class="description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our mission is to simplify your search for travel destinations, to minimize your screen time and maximize your experience in the real world.</div>
+    </div>
+  
+
+
+    <!-- Got a destination in mind? Start here:  -->
+    <div class="destination-search page-block">
+      <form method="GET">
+        <label for="travel-tags">How do you travel?</label><br>
+        <textarea id="travel-tags" name="travel-tags" placeholder="eg. romantic, foodie, adventurer, ..."></textarea>
+        <label for="destination-query">Destination: </lable>
+        <input type="text" id="destination-query" name="destination-query" placeholder="eg. Paris, London, Grand Cayon, ...">
+        <button type="submit">Match me!</button>
+      </form>
+    </div>
+
+    <div class="jump-to-quiz page-block">
+      blah blah links to quiz
+
+    </div>
+  </div>
+
+
+
+
+
+    <!--footer-->
+  <footer>
+    <p>
+      <a href="ContactPage">Contact Us</a>
+      <a href="facebook">Facebook</a>
+      <a href="linkedIn">LinkedIn</a>
+      <a href="twitter">Twitter</a>
+      <a href="tel:514-555-5555">514-555-5555</a>
+      <a href="mailto:cheryl@gmail.com">cheryl@gmail.com</a>
+    </p>
+  </footer>
+   <script type="text/javascript" src="../js/index.js"></script>
+  </body>
+</html>
