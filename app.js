@@ -3,16 +3,20 @@ var express = require("express");
 var app = express();
 var router = express.Router();
 
+
+app.use(express.static("public"));
+app.set("view engine", "ejs");
+
 // "/" => "index.html"
 app.get("/", function(req, res){
 	//var thing = req.params.thing;
-	res.render("index.ejs");
+	res.render("index");
 });
 
 
 // "/login" ==> "login.html"
-app.get("/login", function(req, res){
-	res.send("login!");
+app.get("/signup", function(req, res){
+	res.render("signup");
 })
 
 
