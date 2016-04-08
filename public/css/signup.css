@@ -1,7 +1,9 @@
 .wrapper {
-	margin: 0 10%;
+	margin: 10% auto 0 auto;
+	padding: 5px 10%;
 	width: 80%;
 	min-height: 90vh;
+	background-color: rgba(255,255,255,1.0);
 }
 
 h1 {
@@ -17,4 +19,12 @@ form {
 form.signup{
 	text-align: left;
 	line-height: 1rem;
+}
+
+body {
+    background-image: url('/img/welcomePage.jpeg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center-top;
+    background-size: cover;
 }

@@ -1,10 +1,12 @@
 //get packages and frameworks
 var express = require("express");
 var app = express();
+var bodyParser = require("body-parser");
 var router = express.Router();
 
 
 app.use(express.static("public"));
+app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
 // "/" => "index.html"
@@ -19,6 +21,13 @@ app.get("/signup", function(req, res){
 	res.render("signup");
 })
 
+
+//req.body holds all the form info in the request
+app.post("/newuser", function(req, res){
+	var newUser = req.body;
+	res.send("You've added a new user: " + newUser);
+
+});
 
 
 

@@ -14,3 +14,4 @@ $(".how-it-works").on("click", function(){
 		$(this).siblings().fadeIn(300);
 	});
 });
+

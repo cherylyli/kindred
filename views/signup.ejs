@@ -1,21 +1,54 @@
 <% include partials/header %>
   <link rel="stylesheet" type="text/css" href="/css/signup.css">
+    <title>Sign Up!</title>
+  </head>
+
+  <body>
+    <div class="animsition no-space">
+    <!--nav bar, maybe -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Kindred</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-nav-demo">
+          <ul class="nav navbar-nav"></ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="/signup">Login</a></li>
+            <li><a href="/signup">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 
     <div class="wrapper">
 		<h1>Login</h1>
-		<form method="GET">
-			Username: <input type="text" name="name" placeholder="name">
+		<form name="signin" method="GET">
+			<label name="name">Username: <input type="text" name="name" placeholder="name"></label>
 			Password: <input type="password" name="password" placeholder="password">
 			<button type="submit">Go!</button>
 		</form>
 
 		<h1>Sign Up</h1>
-		<form method="POST" class="signup">
+		<form action="/newuser" method="POST" class="signup">
 			Create a new username: <input type="text" name="name" placeholder="John"><br>
 			Choose a password: <input type="password" name="password" placeholder="password"><br>
 			Enter your email: <input type="email" name="email" placeholder="john@abc.com">
 		</form>
 
 	</div>
+
+  <script src="/lib/jquery-1.12.2.min.js"></script>
+  <script src="/lib/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript" src="/js/index.js"></script>
 
 <% include partials/footer %>

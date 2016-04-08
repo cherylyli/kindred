@@ -26,6 +26,7 @@ a:hover{
 
 
 
+
 /************************
 navigation bar settings
 ************************/
@@ -44,7 +45,13 @@ navigation bar settings
 
 .navbar-default .navbar-nav>li>a{
   color: #000;
-  font-size: 0.8rem;
+  font-size: 1.0rem;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #333;
+  text-decoration: underline;
 }
 
 .navbar-collapse .nav .navbar-right {
