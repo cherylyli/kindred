@@ -26,6 +26,7 @@ app.get("/signup", function(req, res){
 app.post("/newuser", function(req, res){
 	var newUser = req.body;
 	res.send("You've added a new user: " + newUser);
+	res.redirect("/friends");
 
 });
 

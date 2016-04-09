@@ -9,11 +9,11 @@ body {
     background-size: cover;
 }
 
-.welcome-1 {
+.landing {
   color: black;
   padding: 10% 0 10% 0;
   font-family: AlexBrush, Pacifico;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bolder;
   min-height: 50vh;
 }
@@ -21,16 +21,18 @@ body {
 h1{
   margin: 2% 20%;
   line-height: 3rem;
-  text-shadow: 4px 4px 8px #888;
+  text-shadow: 4px 4px 8px #333;
   display: inline-block;
   text-align: left;
+  font-size: 5rem;
 }
 
 h2 {
   padding: 0;
   margin: 0 0 0 28%;
   color: #222;
-  text-shadow: 2px 2px 4px #888;
+  text-shadow: 2px 2px 4px #777;
+  font-size: 4rem;
 }
 
 .subtitle {
@@ -47,6 +49,10 @@ index: page-block
   font-size: 1.6rem;
   padding: 2% 20% 1% 20%;
   text-align: center;
+}
+
+.block-header span {
+  font-size: 1.6rem;
 }
 
 span.what-it-is {
@@ -73,7 +79,7 @@ div.not-selected {
   padding: 5% 8% 0 8%;
   background-color: rgba(255,255,255,1.0);
   min-height: 60vh;
-};
+}
 
 
 
@@ -96,3 +102,48 @@ index: destination-search
 /**********************************
 index: destination-search
 **********************************/
+
+
+
+
+/**********************************
+Media Query Styling
+**********************************/
+@media (max-width:960px) {
+
+  .landing h1{
+    font-size: 4.0rem;
+  }
+
+  .landing h2{
+    font-size: 3.0rem;
+  }
+
+  .page-block {
+     padding: 5% 5% 0 5%;
+  }
+
+  .page-block div {
+    padding: 5% 5% 0 5%;
+  }
+
+
+
+}
+
+
+@media (max-width:600px) {
+  .page-block {
+     padding: 5% 1% 0 1%;
+  }
+
+  .block-header {
+    padding: 5% 1% 0 1%;
+  }
+
+
+}
+
+@media (max-width:600px) {
+  
+}
