@@ -1,0 +1,46 @@
+
+<!--header template -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../public/lib/magnific-popup.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../public/css/main.css" media="screen" title="no title" charset="utf-8">
+
+<body>
+
+	<a class="popup-with-form" href="#test-form">Open form</a>
+
+    <form id="test-form" class="white-popup-block mfp-hide">
+      <h1>Form</h1>
+      <fieldset style="border:0;">
+        <p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>
+        <ol>
+          <li>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Name" required="">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="example@domain.com" required="">
+          </li>
+          <li>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="Eg. +447500000000" required="">
+          </li>
+          <li>
+            <label for="textarea">Textarea</label><br>
+            <textarea id="textarea">Try to resize me to see how popup CSS-based resizing works.</textarea>
+          </li>
+        </ol>
+      </fieldset>
+    </form>
+  <script src="../public/lib/jquery-1.12.2.min.js"></script>
+  <script src="../public/lib/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript" src="../public/js/index.js"></script>
+
+</body>

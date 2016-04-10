@@ -1,0 +1,144 @@
+
+/************************
+headline settings
+************************/
+.headLine {
+  padding: 1% 2% 0 0;
+}
+
+.cityHeadLine {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#nameOfCity {
+  font-family: Chunkfive;
+  font-size: 3rem;
+  line-height: 1rem;
+  font-style: normal;
+  font-weight: lighter;
+  color: #333;
+  text-shadow: 2px 2px 4px #888;
+}
+
+.numMatches {
+  font-size: 1.4rem;
+  color: #555;
+  text-shadow: 1px 1px 1px #888;
+  margin-left: 2%;
+}
+
+p.peopleOptions {
+  margin: 0 0 2.5% 0;
+  padding: 0 25%;
+  text-align: center;
+  border-bottom: 0.25px solid #ddd;
+}
+
+.peopleOptions a{
+  display: inline-block;
+  padding: 0 5%;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.peopleOptions a:hover {
+  color: #444;
+  font-size: 0.9rem;
+}
+
+a.selected {
+  color: #333;
+  font-size: 0.9rem;
+}
+
+
+
+
+/**********************************
+city Match city picture: montreal
+**********************************/
+.headerPicture {
+  background-image: linear-gradient(0deg, #fff 0%, transparent 30%, transparent 70%, #ddd 100%),
+                    url('../img/MontrealBackground.jpg');
+  margin: 0;
+  padding: 27% 0 0 0;
+  background-repeat: no-repeat;
+  background-position: center-top;
+  background-size: cover;
+}
+
+
+
+/**********************************
+result block internal styling
+**********************************/
+.profileInfo p {
+  line-height: 1rem;
+  margin: 3%;
+}
+
+.placeImage img {
+  border-radius: 10%;
+  width: 100%
+}
+
+.profileInfo h3 {
+  margin: 0;
+}
+
+.containerPlaces a {
+  padding: 0 0 0 0;
+  margin: 0;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+}
+
+.containerPlaces a:hover {
+  #777777;
+}
+
+.containerPlaces h3 {
+  margin: 0 0 3% 0;
+}
+
+.containerPlaces p {
+  margin: 0;
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+.personName {
+  font-size: 1.5rem;
+  text-align: center;
+  border-bottom: 0.5px dotted #ddd;
+  padding: 0 10% 0 0;
+}
+
+.cityOrigin {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: right;
+  color: #888;
+}
+
+.travelTags {
+  font-size: 0.9rem;
+}
+
+.travelTags,
+.matchPercent,
+.lastVisited {
+  text-align: left;
+}
+
+.matchPercent,
+.lastVisited {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #888;
+  margin: 0;
+}

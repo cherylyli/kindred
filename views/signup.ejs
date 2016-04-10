@@ -1,0 +1,31 @@
+<% include partials/header %>
+  <link rel="stylesheet" type="text/css" href="/css/signup.css">
+    <title>Sign Up!</title>
+  </head>
+
+  <body>
+    <!--nav bar, maybe -->
+    <% include partials/navbar %>
+
+    <div class="wrapper">
+		<h1>Login</h1>
+		<form name="signin" method="GET">
+			<label name="name">Username: </label><input type="text" name="name" placeholder="name"><br>
+			<label name="passwd">Password: </label><input type="password" name="password" placeholder="password"><br>
+			<button type="submit">Go!</button>
+		</form>
+
+		<h1>Sign Up</h1>
+		<form action="/newuser" method="POST" class="signup">
+			Create a new username: <input type="text" name="name" placeholder="John"><br>
+			Choose a password: <input type="password" name="password" placeholder="password"><br>
+			Enter your email: <input type="email" name="email" placeholder="john@abc.com">
+		</form>
+
+	</div>
+
+  <script src="/lib/jquery-1.12.2.min.js"></script>
+  <script src="/lib/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript" src="/js/index.js"></script>
+
+<% include partials/footer %>
