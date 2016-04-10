@@ -9,7 +9,7 @@
 
     <div class="wrapper">
 		<h1>Login</h1>
-		<form name="signin" method="GET">
+		<form name="signin" method="POST">
 			<label name="name">Username: </label><input type="text" name="name" placeholder="name"><br>
 			<label name="passwd">Password: </label><input type="password" name="password" placeholder="password"><br>
 			<button type="submit">Go!</button>
@@ -17,9 +17,9 @@
 
 		<h1>Sign Up</h1>
 		<form action="/newuser" method="POST" class="signup">
-			Create a new username: <input type="text" name="name" placeholder="John"><br>
-			Choose a password: <input type="password" name="password" placeholder="password"><br>
-			Enter your email: <input type="email" name="email" placeholder="john@abc.com">
+			<label name="username">Create a new username: </label><input type="text" name="name" placeholder="John"><br>
+			<label name="password">Choose a password: </label><input type="password" name="password" placeholder="password"><br>
+			<label name="password">Enter your email: </label><input type="email" name="email" placeholder="john@abc.com">
 		</form>
 
 	</div>

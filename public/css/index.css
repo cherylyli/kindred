@@ -51,7 +51,8 @@ index: page-block
   text-align: center;
 }
 
-.block-header span {
+.block-header span,
+.page-block label {
   font-size: 1.6rem;
 }
 
@@ -89,7 +90,22 @@ div.not-selected {
 /**********************************
 index: destination-search
 **********************************/
+.destination-search {
+  padding: 2% auto;
+}
 
+form {
+  padding: 0 20% 1% 20%;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+textarea {
+  border-radius: 5px;
+}
 
 
 

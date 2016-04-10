@@ -39,11 +39,11 @@
 
     <!-- Got a destination in mind? Start here:  -->
     <div class="destination-search page-block">
-      <form method="GET">
-        <label for="travel-tags">How do you travel?</label><br>
-        <textarea id="travel-tags" name="travel-tags" placeholder="eg. romantic, foodie, adventurer, ..."></textarea>
+      <form action="/destination-search" method="GET">
+        <label for="travel-tags">How do you travel?</label>
+        <textarea id="travel-tags" name="travel-tags" placeholder="eg. romantic, foodie, adventurer, ..."></textarea><br><br>
         <label for="destination-query">Destination: </lable>
-        <input type="text" id="destination-query" name="destination-query" placeholder="eg. Paris, London, Grand Cayon, ...">
+        <textarea id="destination-query" name="destination-query" placeholder="eg. Paris, London, Grand Cayon, ..."></textarea><br>
         <button type="submit">Match me!</button>
       </form>
     </div>
